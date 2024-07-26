@@ -29,7 +29,8 @@ Use o método `updateModel` ou `updateView` na instância Presenter para atualiz
 
 ## Exemplo
 
-Veja a classe Main para um exemplo de como usar o módulo de data binding em uma arquitetura MVP.
+Esse repositório abaixo tem um exemplo de como usar o módulo de data binding em uma arquitetura MVP.
+https://github.com/Talleshts/exemploParaDesafio
 
 ## Configuração
 
