@@ -2,22 +2,22 @@
 
 ## Visão Geral
 
-Este projeto fornece um módulo de data binding que permite a sincronização entre um modelo e uma visão em uma aplicação Java. O módulo é projetado para ser flexível e extensível, permitindo que seja integrado em várias partes de uma aplicação sem acoplamento forte a um contexto específico.
+Este projeto fornece um módulo de data binding que permite a sincronização entre uma model e uma view em uma aplicação Java. O módulo é projetado para ser flexível e extensível, permitindo que seja integrado em várias partes de uma aplicação sem acoplamento forte a um contexto específico.
 
 ## Recursos
 
-- Implementa o padrão Observer para notificar a visão de alterações no modelo e vice-versa
+- Implementa o padrão Observer para notificar a view de alterações na model e vice-versa
 - Suporta configurações de data binding one-way e two-way
-- Integra-se com o padrão Model-View-Presenter (MVP) em uma abordagem de Visão Passiva
+- Integra-se com o padrão Model-View-Presenter (MVP) em uma abordagem de Passive View
 - Permite extensão e customização fáceis para atender aos requisitos específicos de uma aplicação
 
 ## Componentes
 
-- `DataBinding`: A classe principal que gerencia o data binding entre o modelo e a visão
-- `Observavel`: Uma implementação do padrão Observer que notifica observadores de alterações no modelo ou visão
+- `DataBinding`: A classe principal que gerencia o data binding entre a model e a view
+- `Observavel`: Uma implementação do padrão Observer que notifica observadores de alterações no model ou view
 - `Model`: Uma classe de modelo de exemplo que demonstra como usar o módulo de data binding
-- `View`: Uma classe de visão de exemplo que demonstra como usar o módulo de data binding
-- `Presenter`: Uma classe de apresentador de exemplo que demonstra como usar o módulo de data binding em uma arquitetura MVP
+- `View`: Uma classe de view de exemplo que demonstra como usar o módulo de data binding
+- `Presenter`: Uma classe de presenter de exemplo que demonstra como usar o módulo de data binding em uma arquitetura MVP
 
 ## Uso
 
