@@ -15,9 +15,6 @@ Este projeto fornece um módulo de data binding que permite a sincronização en
 
 - `DataBinding`: A classe principal que gerencia o data binding entre a model e a view
 - `Observavel`: Uma implementação do padrão Observer que notifica observadores de alterações no model ou view
-- `Model`: Uma classe de modelo de exemplo que demonstra como usar o módulo de data binding
-- `View`: Uma classe de view de exemplo que demonstra como usar o módulo de data binding
-- `Presenter`: Uma classe de presenter de exemplo que demonstra como usar o módulo de data binding em uma arquitetura MVP
 
 ## Uso
 
