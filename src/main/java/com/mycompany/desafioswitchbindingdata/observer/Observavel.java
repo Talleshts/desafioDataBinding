@@ -12,11 +12,8 @@ import java.util.List;
  * @author talle
  */
 public class Observavel {
-     private List<Observer> observers;
+     private List<Observer> observers  = new ArrayList<>();
 
-    public Observavel() {
-        this.observers = new ArrayList<>();
-    }
 
     public void addObserver(Observer observer) {
         observers.add(observer);
