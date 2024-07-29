@@ -23,23 +23,16 @@ public class DataBinding {
     }
 
     public void configureOneWayBinding(boolean modelToView) {
-        if (modelToView) {
-            observavel.addObserver(new Observer() {
-                @Override
-                public void update(Object objeto) {
-                    // Atualiza a view com os dados do model
+        observavel.addObserver(new Observer() {
+            @Override
+            public void update(Object objeto) {
+                if (modelToView) {
                     view = objeto;
-                }
-            });
-        } else {
-            observavel.addObserver(new Observer() {
-                @Override
-                public void update(Object objeto) {
-                    // Atualiza o model com os dados da view
+                } else {
                     model = objeto;
                 }
-            });
-        }
+            }
+        });
     }
 
     public void configureTwoWayBinding() {
