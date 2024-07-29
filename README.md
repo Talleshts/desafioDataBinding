@@ -1,4 +1,8 @@
 # Módulo de Data Binding
+> Trabalho desenvolvido por: Talles Henrique e Eduardo Portilho
+> Disciplina: 2024-1 - Projeto de Sistemas de Software - COM10508
+> Professor: Clayton Vieira Fraga Filho
+> Para complemento de nota e aprofundamento no aprendizado do padrão MVP e Observer
 
 ## Visão Geral
 
@@ -18,11 +22,11 @@ Este projeto fornece um módulo de data binding que permite a sincronização en
 
 ## Uso
 
-Crie uma classe de model que estenda a classe Model
-Crie uma classe de view que estenda a classe View
-Crie uma classe de presenter para alinhar a view com a model e que estenda a classe Presenter
-Configure o data binding chamando o método `configureOneWayBinding` ou `configureTwoWayBinding` na instância DataBinding
-Use o método `updateModel` ou `updateView` na instância Presenter para atualizar o modelo ou visão
+- Crie uma classe de model que estenda a classe Model
+- Crie uma classe de view que estenda a classe View
+- Crie uma classe de presenter para alinhar a view com a model e que estenda a classe Presenter
+- Configure o data binding chamando o método `configureOneWayBinding` ou `configureTwoWayBinding` na instância DataBinding
+- Use o método `updateModel` ou `updateView` na instância Presenter para atualizar o modelo ou visão
 
 ## Exemplo
 
