@@ -1,7 +1,10 @@
 # Módulo de Data Binding
 > Trabalho desenvolvido por: Talles Henrique e Eduardo Portilho
-> Disciplina: 2024-1 - Projeto de Sistemas de Software - COM10508
+> 
+> Disciplina: 2024-1 - Projeto de Sistemas de Software - COM10508 UFES - Campus Alegre
+> 
 > Professor: Clayton Vieira Fraga Filho
+> 
 > Para complemento de nota e aprofundamento no aprendizado do padrão MVP e Observer
 
 ## Visão Geral
